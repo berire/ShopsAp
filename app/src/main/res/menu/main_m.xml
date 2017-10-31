@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Location Found -->
+
+    <item android:id="@+id/action_account"
+        android:icon="@drawable/profile"
+        android:title="Hesabım"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_cart"
+        android:icon="@drawable/blackcart"
+        android:title="Sepetim"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_search"
+    android:title="Arama"
+    android:icon="@drawable/search"
+    app:showAsAction="always|collapseActionView"
+    app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        android:title="Yenile"
+        app:showAsAction="always" />
+
+
+
+
+
+
+
+
+
+
+</menu>
+

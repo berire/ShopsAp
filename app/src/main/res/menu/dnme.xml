@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Hesabım"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/blackcart"
+        android:title="Sepetim"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/search"
+        android:title="Arama"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Ana Menü"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/location"
+        android:title="Adresim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/categories"
+        android:title="Kategoriler"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/lists"
+        android:icon="@drawable/olist"
+        android:title="Alışveriş Listem"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/orders"
+        android:icon="@drawable/orders"
+        android:title="Siparişlerim"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Ayarlar"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/question"
+        android:title="Yardım"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/feedback"
+        android:title="Görüş Bildir"
+        app:showAsAction="never"/>
+
+
+
+
+
+</menu>
